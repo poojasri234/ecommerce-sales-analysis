@@ -1,0 +1,15 @@
+# Local Python environment and caches
+.venv/
+__pycache__/
+*.py[cod]
+
+# Local OS/editor files
+.DS_Store
+.vscode/
+
+# Raw source data: download locally; do not commit transaction data
+data/*.xlsx
+data/*.xls
+data/*.csv
+data/*.zip
+!data/README.md
