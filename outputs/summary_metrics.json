@@ -1,0 +1,24 @@
+{
+  "project": "Online Retail Sales Analysis",
+  "source": {
+    "name": "UCI Online Retail",
+    "url": "https://doi.org/10.24432/C5BW33",
+    "license": "CC BY 4.0",
+    "retailer_context": "UK-based non-store online retailer"
+  },
+  "currency": "GBP",
+  "metric_definition": "Gross invoiced sales = Quantity \u00d7 UnitPrice for deduplicated, positive-quantity, positive-unit-price, non-cancellation invoice lines.",
+  "metrics": {
+    "raw_transaction_rows": 541909,
+    "exact_duplicate_rows_removed": 5268,
+    "eligible_transaction_lines": 524878,
+    "gross_invoiced_sales_gbp": 10642110.8,
+    "distinct_eligible_invoices": 19960,
+    "countries_represented": 38,
+    "united_kingdom_gross_invoiced_sales_share_percent": 84.6
+  },
+  "interpretation_notes": [
+    "Gross invoiced sales is not net revenue or profit.",
+    "Results describe a public historical dataset and are not employer results."
+  ]
+}
