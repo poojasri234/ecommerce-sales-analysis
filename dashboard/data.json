@@ -1,0 +1,2182 @@
+{
+  "project": "Online Retail Sales Analysis",
+  "source": "UCI Online Retail; UK-based retailer; GBP",
+  "metric_definition": "Gross invoiced sales = Quantity × UnitPrice for deduplicated, positive-quantity, positive-unit-price, non-cancellation invoice lines.",
+  "filters": {
+    "months": [
+      "2010-12",
+      "2011-01",
+      "2011-02",
+      "2011-03",
+      "2011-04",
+      "2011-05",
+      "2011-06",
+      "2011-07",
+      "2011-08",
+      "2011-09",
+      "2011-10",
+      "2011-11",
+      "2011-12"
+    ],
+    "countries": [
+      "Australia",
+      "Austria",
+      "Bahrain",
+      "Belgium",
+      "Brazil",
+      "Canada",
+      "Channel Islands",
+      "Cyprus",
+      "Czech Republic",
+      "Denmark",
+      "EIRE",
+      "European Community",
+      "Finland",
+      "France",
+      "Germany",
+      "Greece",
+      "Hong Kong",
+      "Iceland",
+      "Israel",
+      "Italy",
+      "Japan",
+      "Lebanon",
+      "Lithuania",
+      "Malta",
+      "Netherlands",
+      "Norway",
+      "Poland",
+      "Portugal",
+      "RSA",
+      "Saudi Arabia",
+      "Singapore",
+      "Spain",
+      "Sweden",
+      "Switzerland",
+      "USA",
+      "United Arab Emirates",
+      "United Kingdom",
+      "Unspecified"
+    ]
+  },
+  "monthly_country": [
+    {
+      "month": "2010-12",
+      "country": "Australia",
+      "gross_invoiced_sales_gbp": 965.35,
+      "eligible_transaction_lines": 31,
+      "distinct_eligible_invoices": 3
+    },
+    {
+      "month": "2010-12",
+      "country": "Austria",
+      "gross_invoiced_sales_gbp": 277.2,
+      "eligible_transaction_lines": 8,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2010-12",
+      "country": "Bahrain",
+      "gross_invoiced_sales_gbp": 205.74,
+      "eligible_transaction_lines": 1,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2010-12",
+      "country": "Belgium",
+      "gross_invoiced_sales_gbp": 1809.91,
+      "eligible_transaction_lines": 95,
+      "distinct_eligible_invoices": 5
+    },
+    {
+      "month": "2010-12",
+      "country": "Channel Islands",
+      "gross_invoiced_sales_gbp": 363.53,
+      "eligible_transaction_lines": 17,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2010-12",
+      "country": "Cyprus",
+      "gross_invoiced_sales_gbp": 1587.07,
+      "eligible_transaction_lines": 82,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2010-12",
+      "country": "Denmark",
+      "gross_invoiced_sales_gbp": 1281.5,
+      "eligible_transaction_lines": 20,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2010-12",
+      "country": "EIRE",
+      "gross_invoiced_sales_gbp": 10033.26,
+      "eligible_transaction_lines": 373,
+      "distinct_eligible_invoices": 17
+    },
+    {
+      "month": "2010-12",
+      "country": "Finland",
+      "gross_invoiced_sales_gbp": 892.8,
+      "eligible_transaction_lines": 17,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2010-12",
+      "country": "France",
+      "gross_invoiced_sales_gbp": 9616.31,
+      "eligible_transaction_lines": 434,
+      "distinct_eligible_invoices": 21
+    },
+    {
+      "month": "2010-12",
+      "country": "Germany",
+      "gross_invoiced_sales_gbp": 15205.74,
+      "eligible_transaction_lines": 511,
+      "distinct_eligible_invoices": 30
+    },
+    {
+      "month": "2010-12",
+      "country": "Iceland",
+      "gross_invoiced_sales_gbp": 711.79,
+      "eligible_transaction_lines": 31,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2010-12",
+      "country": "Italy",
+      "gross_invoiced_sales_gbp": 811.5,
+      "eligible_transaction_lines": 40,
+      "distinct_eligible_invoices": 2
+    },
+    {
+      "month": "2010-12",
+      "country": "Japan",
+      "gross_invoiced_sales_gbp": 7705.07,
+      "eligible_transaction_lines": 65,
+      "distinct_eligible_invoices": 3
+    },
+    {
+      "month": "2010-12",
+      "country": "Lithuania",
+      "gross_invoiced_sales_gbp": 1661.06,
+      "eligible_transaction_lines": 35,
+      "distinct_eligible_invoices": 4
+    },
+    {
+      "month": "2010-12",
+      "country": "Netherlands",
+      "gross_invoiced_sales_gbp": 8784.48,
+      "eligible_transaction_lines": 72,
+      "distinct_eligible_invoices": 3
+    },
+    {
+      "month": "2010-12",
+      "country": "Norway",
+      "gross_invoiced_sales_gbp": 3787.12,
+      "eligible_transaction_lines": 147,
+      "distinct_eligible_invoices": 2
+    },
+    {
+      "month": "2010-12",
+      "country": "Poland",
+      "gross_invoiced_sales_gbp": 248.16,
+      "eligible_transaction_lines": 8,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2010-12",
+      "country": "Portugal",
+      "gross_invoiced_sales_gbp": 2439.97,
+      "eligible_transaction_lines": 116,
+      "distinct_eligible_invoices": 6
+    },
+    {
+      "month": "2010-12",
+      "country": "Spain",
+      "gross_invoiced_sales_gbp": 1843.73,
+      "eligible_transaction_lines": 75,
+      "distinct_eligible_invoices": 4
+    },
+    {
+      "month": "2010-12",
+      "country": "Sweden",
+      "gross_invoiced_sales_gbp": 3834.3,
+      "eligible_transaction_lines": 26,
+      "distinct_eligible_invoices": 2
+    },
+    {
+      "month": "2010-12",
+      "country": "Switzerland",
+      "gross_invoiced_sales_gbp": 1304.92,
+      "eligible_transaction_lines": 49,
+      "distinct_eligible_invoices": 2
+    },
+    {
+      "month": "2010-12",
+      "country": "United Kingdom",
+      "gross_invoiced_sales_gbp": 746082.22,
+      "eligible_transaction_lines": 38738,
+      "distinct_eligible_invoices": 1447
+    },
+    {
+      "month": "2011-01",
+      "country": "Australia",
+      "gross_invoiced_sales_gbp": 9017.71,
+      "eligible_transaction_lines": 127,
+      "distinct_eligible_invoices": 9
+    },
+    {
+      "month": "2011-01",
+      "country": "Belgium",
+      "gross_invoiced_sales_gbp": 1200.2,
+      "eligible_transaction_lines": 58,
+      "distinct_eligible_invoices": 3
+    },
+    {
+      "month": "2011-01",
+      "country": "Channel Islands",
+      "gross_invoiced_sales_gbp": 675.58,
+      "eligible_transaction_lines": 30,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2011-01",
+      "country": "Cyprus",
+      "gross_invoiced_sales_gbp": 547.5,
+      "eligible_transaction_lines": 16,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2011-01",
+      "country": "EIRE",
+      "gross_invoiced_sales_gbp": 21904.19,
+      "eligible_transaction_lines": 173,
+      "distinct_eligible_invoices": 7
+    },
+    {
+      "month": "2011-01",
+      "country": "Finland",
+      "gross_invoiced_sales_gbp": 889.02,
+      "eligible_transaction_lines": 11,
+      "distinct_eligible_invoices": 2
+    },
+    {
+      "month": "2011-01",
+      "country": "France",
+      "gross_invoiced_sales_gbp": 17740.12,
+      "eligible_transaction_lines": 660,
+      "distinct_eligible_invoices": 29
+    },
+    {
+      "month": "2011-01",
+      "country": "Germany",
+      "gross_invoiced_sales_gbp": 16880.84,
+      "eligible_transaction_lines": 777,
+      "distinct_eligible_invoices": 31
+    },
+    {
+      "month": "2011-01",
+      "country": "Greece",
+      "gross_invoiced_sales_gbp": 2661.24,
+      "eligible_transaction_lines": 32,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2011-01",
+      "country": "Hong Kong",
+      "gross_invoiced_sales_gbp": 2230.96,
+      "eligible_transaction_lines": 53,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2011-01",
+      "country": "Iceland",
+      "gross_invoiced_sales_gbp": 475.39,
+      "eligible_transaction_lines": 29,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2011-01",
+      "country": "Israel",
+      "gross_invoiced_sales_gbp": 379.84,
+      "eligible_transaction_lines": 14,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2011-01",
+      "country": "Italy",
+      "gross_invoiced_sales_gbp": 2402.51,
+      "eligible_transaction_lines": 108,
+      "distinct_eligible_invoices": 3
+    },
+    {
+      "month": "2011-01",
+      "country": "Lebanon",
+      "gross_invoiced_sales_gbp": 1693.88,
+      "eligible_transaction_lines": 45,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2011-01",
+      "country": "Netherlands",
+      "gross_invoiced_sales_gbp": 26611.16,
+      "eligible_transaction_lines": 229,
+      "distinct_eligible_invoices": 5
+    },
+    {
+      "month": "2011-01",
+      "country": "Poland",
+      "gross_invoiced_sales_gbp": 613.22,
+      "eligible_transaction_lines": 25,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2011-01",
+      "country": "Portugal",
+      "gross_invoiced_sales_gbp": 4055.71,
+      "eligible_transaction_lines": 118,
+      "distinct_eligible_invoices": 4
+    },
+    {
+      "month": "2011-01",
+      "country": "Singapore",
+      "gross_invoiced_sales_gbp": 2053.07,
+      "eligible_transaction_lines": 56,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2011-01",
+      "country": "Spain",
+      "gross_invoiced_sales_gbp": 10086.09,
+      "eligible_transaction_lines": 382,
+      "distinct_eligible_invoices": 8
+    },
+    {
+      "month": "2011-01",
+      "country": "Sweden",
+      "gross_invoiced_sales_gbp": 3486.32,
+      "eligible_transaction_lines": 34,
+      "distinct_eligible_invoices": 2
+    },
+    {
+      "month": "2011-01",
+      "country": "Switzerland",
+      "gross_invoiced_sales_gbp": 4231.23,
+      "eligible_transaction_lines": 160,
+      "distinct_eligible_invoices": 3
+    },
+    {
+      "month": "2011-01",
+      "country": "United Kingdom",
+      "gross_invoiced_sales_gbp": 559975.83,
+      "eligible_transaction_lines": 30923,
+      "distinct_eligible_invoices": 971
+    },
+    {
+      "month": "2011-02",
+      "country": "Australia",
+      "gross_invoiced_sales_gbp": 14695.42,
+      "eligible_transaction_lines": 89,
+      "distinct_eligible_invoices": 5
+    },
+    {
+      "month": "2011-02",
+      "country": "Austria",
+      "gross_invoiced_sales_gbp": 518.36,
+      "eligible_transaction_lines": 21,
+      "distinct_eligible_invoices": 2
+    },
+    {
+      "month": "2011-02",
+      "country": "Belgium",
+      "gross_invoiced_sales_gbp": 2181.07,
+      "eligible_transaction_lines": 117,
+      "distinct_eligible_invoices": 8
+    },
+    {
+      "month": "2011-02",
+      "country": "Channel Islands",
+      "gross_invoiced_sales_gbp": 1784.71,
+      "eligible_transaction_lines": 10,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2011-02",
+      "country": "Cyprus",
+      "gross_invoiced_sales_gbp": 4334.24,
+      "eligible_transaction_lines": 156,
+      "distinct_eligible_invoices": 6
+    },
+    {
+      "month": "2011-02",
+      "country": "Czech Republic",
+      "gross_invoiced_sales_gbp": 549.26,
+      "eligible_transaction_lines": 15,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2011-02",
+      "country": "Denmark",
+      "gross_invoiced_sales_gbp": 399.22,
+      "eligible_transaction_lines": 20,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2011-02",
+      "country": "EIRE",
+      "gross_invoiced_sales_gbp": 12203.74,
+      "eligible_transaction_lines": 430,
+      "distinct_eligible_invoices": 13
+    },
+    {
+      "month": "2011-02",
+      "country": "Finland",
+      "gross_invoiced_sales_gbp": 205.16,
+      "eligible_transaction_lines": 12,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2011-02",
+      "country": "France",
+      "gross_invoiced_sales_gbp": 8515.96,
+      "eligible_transaction_lines": 419,
+      "distinct_eligible_invoices": 21
+    },
+    {
+      "month": "2011-02",
+      "country": "Germany",
+      "gross_invoiced_sales_gbp": 9581.05,
+      "eligible_transaction_lines": 296,
+      "distinct_eligible_invoices": 19
+    },
+    {
+      "month": "2011-02",
+      "country": "Israel",
+      "gross_invoiced_sales_gbp": 779.1,
+      "eligible_transaction_lines": 16,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2011-02",
+      "country": "Italy",
+      "gross_invoiced_sales_gbp": 256.0,
+      "eligible_transaction_lines": 13,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2011-02",
+      "country": "Japan",
+      "gross_invoiced_sales_gbp": 5780.81,
+      "eligible_transaction_lines": 85,
+      "distinct_eligible_invoices": 2
+    },
+    {
+      "month": "2011-02",
+      "country": "Netherlands",
+      "gross_invoiced_sales_gbp": 23011.91,
+      "eligible_transaction_lines": 189,
+      "distinct_eligible_invoices": 5
+    },
+    {
+      "month": "2011-02",
+      "country": "Norway",
+      "gross_invoiced_sales_gbp": 630.9,
+      "eligible_transaction_lines": 32,
+      "distinct_eligible_invoices": 2
+    },
+    {
+      "month": "2011-02",
+      "country": "Poland",
+      "gross_invoiced_sales_gbp": 604.05,
+      "eligible_transaction_lines": 28,
+      "distinct_eligible_invoices": 2
+    },
+    {
+      "month": "2011-02",
+      "country": "Portugal",
+      "gross_invoiced_sales_gbp": 1213.9,
+      "eligible_transaction_lines": 57,
+      "distinct_eligible_invoices": 2
+    },
+    {
+      "month": "2011-02",
+      "country": "Saudi Arabia",
+      "gross_invoiced_sales_gbp": 145.92,
+      "eligible_transaction_lines": 9,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2011-02",
+      "country": "Spain",
+      "gross_invoiced_sales_gbp": 2114.5,
+      "eligible_transaction_lines": 96,
+      "distinct_eligible_invoices": 4
+    },
+    {
+      "month": "2011-02",
+      "country": "Sweden",
+      "gross_invoiced_sales_gbp": 509.5,
+      "eligible_transaction_lines": 12,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2011-02",
+      "country": "Switzerland",
+      "gross_invoiced_sales_gbp": 2654.92,
+      "eligible_transaction_lines": 101,
+      "distinct_eligible_invoices": 5
+    },
+    {
+      "month": "2011-02",
+      "country": "United Arab Emirates",
+      "gross_invoiced_sales_gbp": 889.24,
+      "eligible_transaction_lines": 30,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2011-02",
+      "country": "United Kingdom",
+      "gross_invoiced_sales_gbp": 428986.62,
+      "eligible_transaction_lines": 24629,
+      "distinct_eligible_invoices": 995
+    },
+    {
+      "month": "2011-03",
+      "country": "Australia",
+      "gross_invoiced_sales_gbp": 17223.99,
+      "eligible_transaction_lines": 108,
+      "distinct_eligible_invoices": 3
+    },
+    {
+      "month": "2011-03",
+      "country": "Austria",
+      "gross_invoiced_sales_gbp": 1708.12,
+      "eligible_transaction_lines": 18,
+      "distinct_eligible_invoices": 2
+    },
+    {
+      "month": "2011-03",
+      "country": "Belgium",
+      "gross_invoiced_sales_gbp": 3351.98,
+      "eligible_transaction_lines": 161,
+      "distinct_eligible_invoices": 9
+    },
+    {
+      "month": "2011-03",
+      "country": "Canada",
+      "gross_invoiced_sales_gbp": 140.54,
+      "eligible_transaction_lines": 10,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2011-03",
+      "country": "Channel Islands",
+      "gross_invoiced_sales_gbp": 3509.33,
+      "eligible_transaction_lines": 182,
+      "distinct_eligible_invoices": 3
+    },
+    {
+      "month": "2011-03",
+      "country": "Cyprus",
+      "gross_invoiced_sales_gbp": 938.39,
+      "eligible_transaction_lines": 48,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2011-03",
+      "country": "Denmark",
+      "gross_invoiced_sales_gbp": 3978.99,
+      "eligible_transaction_lines": 19,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2011-03",
+      "country": "EIRE",
+      "gross_invoiced_sales_gbp": 22197.51,
+      "eligible_transaction_lines": 558,
+      "distinct_eligible_invoices": 23
+    },
+    {
+      "month": "2011-03",
+      "country": "Finland",
+      "gross_invoiced_sales_gbp": 5936.82,
+      "eligible_transaction_lines": 214,
+      "distinct_eligible_invoices": 5
+    },
+    {
+      "month": "2011-03",
+      "country": "France",
+      "gross_invoiced_sales_gbp": 14584.95,
+      "eligible_transaction_lines": 543,
+      "distinct_eligible_invoices": 25
+    },
+    {
+      "month": "2011-03",
+      "country": "Germany",
+      "gross_invoiced_sales_gbp": 14392.69,
+      "eligible_transaction_lines": 577,
+      "distinct_eligible_invoices": 32
+    },
+    {
+      "month": "2011-03",
+      "country": "Greece",
+      "gross_invoiced_sales_gbp": 387.31,
+      "eligible_transaction_lines": 22,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2011-03",
+      "country": "Hong Kong",
+      "gross_invoiced_sales_gbp": 2583.76,
+      "eligible_transaction_lines": 1,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2011-03",
+      "country": "Italy",
+      "gross_invoiced_sales_gbp": 1806.81,
+      "eligible_transaction_lines": 83,
+      "distinct_eligible_invoices": 4
+    },
+    {
+      "month": "2011-03",
+      "country": "Japan",
+      "gross_invoiced_sales_gbp": 48.9,
+      "eligible_transaction_lines": 16,
+      "distinct_eligible_invoices": 3
+    },
+    {
+      "month": "2011-03",
+      "country": "Netherlands",
+      "gross_invoiced_sales_gbp": 22416.49,
+      "eligible_transaction_lines": 189,
+      "distinct_eligible_invoices": 8
+    },
+    {
+      "month": "2011-03",
+      "country": "Norway",
+      "gross_invoiced_sales_gbp": 1265.31,
+      "eligible_transaction_lines": 23,
+      "distinct_eligible_invoices": 4
+    },
+    {
+      "month": "2011-03",
+      "country": "Poland",
+      "gross_invoiced_sales_gbp": 317.78,
+      "eligible_transaction_lines": 9,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2011-03",
+      "country": "Portugal",
+      "gross_invoiced_sales_gbp": 2660.85,
+      "eligible_transaction_lines": 114,
+      "distinct_eligible_invoices": 5
+    },
+    {
+      "month": "2011-03",
+      "country": "Spain",
+      "gross_invoiced_sales_gbp": 5363.15,
+      "eligible_transaction_lines": 201,
+      "distinct_eligible_invoices": 8
+    },
+    {
+      "month": "2011-03",
+      "country": "Sweden",
+      "gross_invoiced_sales_gbp": 4720.58,
+      "eligible_transaction_lines": 35,
+      "distinct_eligible_invoices": 3
+    },
+    {
+      "month": "2011-03",
+      "country": "Switzerland",
+      "gross_invoiced_sales_gbp": 1870.23,
+      "eligible_transaction_lines": 58,
+      "distinct_eligible_invoices": 3
+    },
+    {
+      "month": "2011-03",
+      "country": "United Kingdom",
+      "gross_invoiced_sales_gbp": 584810.78,
+      "eligible_transaction_lines": 32308,
+      "distinct_eligible_invoices": 1308
+    },
+    {
+      "month": "2011-04",
+      "country": "Australia",
+      "gross_invoiced_sales_gbp": 771.6,
+      "eligible_transaction_lines": 18,
+      "distinct_eligible_invoices": 2
+    },
+    {
+      "month": "2011-04",
+      "country": "Austria",
+      "gross_invoiced_sales_gbp": 680.78,
+      "eligible_transaction_lines": 26,
+      "distinct_eligible_invoices": 2
+    },
+    {
+      "month": "2011-04",
+      "country": "Belgium",
+      "gross_invoiced_sales_gbp": 1989.48,
+      "eligible_transaction_lines": 116,
+      "distinct_eligible_invoices": 6
+    },
+    {
+      "month": "2011-04",
+      "country": "Brazil",
+      "gross_invoiced_sales_gbp": 1143.6,
+      "eligible_transaction_lines": 32,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2011-04",
+      "country": "Channel Islands",
+      "gross_invoiced_sales_gbp": 293.0,
+      "eligible_transaction_lines": 9,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2011-04",
+      "country": "EIRE",
+      "gross_invoiced_sales_gbp": 7570.5,
+      "eligible_transaction_lines": 306,
+      "distinct_eligible_invoices": 11
+    },
+    {
+      "month": "2011-04",
+      "country": "European Community",
+      "gross_invoiced_sales_gbp": 191.4,
+      "eligible_transaction_lines": 11,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2011-04",
+      "country": "Finland",
+      "gross_invoiced_sales_gbp": 1688.92,
+      "eligible_transaction_lines": 40,
+      "distinct_eligible_invoices": 4
+    },
+    {
+      "month": "2011-04",
+      "country": "France",
+      "gross_invoiced_sales_gbp": 5529.61,
+      "eligible_transaction_lines": 226,
+      "distinct_eligible_invoices": 14
+    },
+    {
+      "month": "2011-04",
+      "country": "Germany",
+      "gross_invoiced_sales_gbp": 12315.54,
+      "eligible_transaction_lines": 440,
+      "distinct_eligible_invoices": 23
+    },
+    {
+      "month": "2011-04",
+      "country": "Greece",
+      "gross_invoiced_sales_gbp": 609.74,
+      "eligible_transaction_lines": 31,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2011-04",
+      "country": "Hong Kong",
+      "gross_invoiced_sales_gbp": 1539.64,
+      "eligible_transaction_lines": 32,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2011-04",
+      "country": "Iceland",
+      "gross_invoiced_sales_gbp": 636.25,
+      "eligible_transaction_lines": 24,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2011-04",
+      "country": "Israel",
+      "gross_invoiced_sales_gbp": 110.0,
+      "eligible_transaction_lines": 6,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2011-04",
+      "country": "Italy",
+      "gross_invoiced_sales_gbp": 737.83,
+      "eligible_transaction_lines": 22,
+      "distinct_eligible_invoices": 2
+    },
+    {
+      "month": "2011-04",
+      "country": "Japan",
+      "gross_invoiced_sales_gbp": 6548.5,
+      "eligible_transaction_lines": 46,
+      "distinct_eligible_invoices": 2
+    },
+    {
+      "month": "2011-04",
+      "country": "Netherlands",
+      "gross_invoiced_sales_gbp": 2976.56,
+      "eligible_transaction_lines": 24,
+      "distinct_eligible_invoices": 3
+    },
+    {
+      "month": "2011-04",
+      "country": "Poland",
+      "gross_invoiced_sales_gbp": 705.84,
+      "eligible_transaction_lines": 25,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2011-04",
+      "country": "Portugal",
+      "gross_invoiced_sales_gbp": 1687.75,
+      "eligible_transaction_lines": 77,
+      "distinct_eligible_invoices": 2
+    },
+    {
+      "month": "2011-04",
+      "country": "Singapore",
+      "gross_invoiced_sales_gbp": 8209.58,
+      "eligible_transaction_lines": 57,
+      "distinct_eligible_invoices": 3
+    },
+    {
+      "month": "2011-04",
+      "country": "Spain",
+      "gross_invoiced_sales_gbp": 1785.65,
+      "eligible_transaction_lines": 96,
+      "distinct_eligible_invoices": 3
+    },
+    {
+      "month": "2011-04",
+      "country": "Sweden",
+      "gross_invoiced_sales_gbp": 809.1,
+      "eligible_transaction_lines": 34,
+      "distinct_eligible_invoices": 2
+    },
+    {
+      "month": "2011-04",
+      "country": "Switzerland",
+      "gross_invoiced_sales_gbp": 2076.94,
+      "eligible_transaction_lines": 79,
+      "distinct_eligible_invoices": 4
+    },
+    {
+      "month": "2011-04",
+      "country": "USA",
+      "gross_invoiced_sales_gbp": 383.95,
+      "eligible_transaction_lines": 22,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2011-04",
+      "country": "United Kingdom",
+      "gross_invoiced_sales_gbp": 475677.63,
+      "eligible_transaction_lines": 27067,
+      "distinct_eligible_invoices": 1153
+    },
+    {
+      "month": "2011-04",
+      "country": "Unspecified",
+      "gross_invoiced_sales_gbp": 299.1,
+      "eligible_transaction_lines": 16,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2011-05",
+      "country": "Australia",
+      "gross_invoiced_sales_gbp": 13638.41,
+      "eligible_transaction_lines": 116,
+      "distinct_eligible_invoices": 4
+    },
+    {
+      "month": "2011-05",
+      "country": "Austria",
+      "gross_invoiced_sales_gbp": 1249.43,
+      "eligible_transaction_lines": 51,
+      "distinct_eligible_invoices": 2
+    },
+    {
+      "month": "2011-05",
+      "country": "Bahrain",
+      "gross_invoiced_sales_gbp": 548.4,
+      "eligible_transaction_lines": 17,
+      "distinct_eligible_invoices": 2
+    },
+    {
+      "month": "2011-05",
+      "country": "Belgium",
+      "gross_invoiced_sales_gbp": 2732.4,
+      "eligible_transaction_lines": 147,
+      "distinct_eligible_invoices": 9
+    },
+    {
+      "month": "2011-05",
+      "country": "Canada",
+      "gross_invoiced_sales_gbp": 534.24,
+      "eligible_transaction_lines": 1,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2011-05",
+      "country": "Channel Islands",
+      "gross_invoiced_sales_gbp": 1207.24,
+      "eligible_transaction_lines": 34,
+      "distinct_eligible_invoices": 2
+    },
+    {
+      "month": "2011-05",
+      "country": "Denmark",
+      "gross_invoiced_sales_gbp": 515.7,
+      "eligible_transaction_lines": 19,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2011-05",
+      "country": "EIRE",
+      "gross_invoiced_sales_gbp": 18003.72,
+      "eligible_transaction_lines": 608,
+      "distinct_eligible_invoices": 22
+    },
+    {
+      "month": "2011-05",
+      "country": "France",
+      "gross_invoiced_sales_gbp": 17606.48,
+      "eligible_transaction_lines": 722,
+      "distinct_eligible_invoices": 39
+    },
+    {
+      "month": "2011-05",
+      "country": "Germany",
+      "gross_invoiced_sales_gbp": 25734.7,
+      "eligible_transaction_lines": 763,
+      "distinct_eligible_invoices": 42
+    },
+    {
+      "month": "2011-05",
+      "country": "Hong Kong",
+      "gross_invoiced_sales_gbp": 1966.16,
+      "eligible_transaction_lines": 93,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2011-05",
+      "country": "Italy",
+      "gross_invoiced_sales_gbp": 587.45,
+      "eligible_transaction_lines": 23,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2011-05",
+      "country": "Japan",
+      "gross_invoiced_sales_gbp": 1351.45,
+      "eligible_transaction_lines": 12,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2011-05",
+      "country": "Netherlands",
+      "gross_invoiced_sales_gbp": 29185.88,
+      "eligible_transaction_lines": 215,
+      "distinct_eligible_invoices": 11
+    },
+    {
+      "month": "2011-05",
+      "country": "Poland",
+      "gross_invoiced_sales_gbp": 1522.37,
+      "eligible_transaction_lines": 69,
+      "distinct_eligible_invoices": 3
+    },
+    {
+      "month": "2011-05",
+      "country": "Portugal",
+      "gross_invoiced_sales_gbp": 4202.23,
+      "eligible_transaction_lines": 80,
+      "distinct_eligible_invoices": 5
+    },
+    {
+      "month": "2011-05",
+      "country": "Spain",
+      "gross_invoiced_sales_gbp": 3257.6,
+      "eligible_transaction_lines": 105,
+      "distinct_eligible_invoices": 4
+    },
+    {
+      "month": "2011-05",
+      "country": "Sweden",
+      "gross_invoiced_sales_gbp": 2681.98,
+      "eligible_transaction_lines": 19,
+      "distinct_eligible_invoices": 3
+    },
+    {
+      "month": "2011-05",
+      "country": "Switzerland",
+      "gross_invoiced_sales_gbp": 3610.01,
+      "eligible_transaction_lines": 151,
+      "distinct_eligible_invoices": 3
+    },
+    {
+      "month": "2011-05",
+      "country": "United Kingdom",
+      "gross_invoiced_sales_gbp": 638104.89,
+      "eligible_transaction_lines": 32614,
+      "distinct_eligible_invoices": 1523
+    },
+    {
+      "month": "2011-05",
+      "country": "Unspecified",
+      "gross_invoiced_sales_gbp": 1055.87,
+      "eligible_transaction_lines": 58,
+      "distinct_eligible_invoices": 2
+    },
+    {
+      "month": "2011-06",
+      "country": "Australia",
+      "gross_invoiced_sales_gbp": 25187.77,
+      "eligible_transaction_lines": 169,
+      "distinct_eligible_invoices": 4
+    },
+    {
+      "month": "2011-06",
+      "country": "Belgium",
+      "gross_invoiced_sales_gbp": 4274.82,
+      "eligible_transaction_lines": 230,
+      "distinct_eligible_invoices": 11
+    },
+    {
+      "month": "2011-06",
+      "country": "Canada",
+      "gross_invoiced_sales_gbp": 1171.46,
+      "eligible_transaction_lines": 57,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2011-06",
+      "country": "Channel Islands",
+      "gross_invoiced_sales_gbp": 2060.03,
+      "eligible_transaction_lines": 81,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2011-06",
+      "country": "Cyprus",
+      "gross_invoiced_sales_gbp": 1109.32,
+      "eligible_transaction_lines": 47,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2011-06",
+      "country": "Denmark",
+      "gross_invoiced_sales_gbp": 3261.15,
+      "eligible_transaction_lines": 106,
+      "distinct_eligible_invoices": 3
+    },
+    {
+      "month": "2011-06",
+      "country": "EIRE",
+      "gross_invoiced_sales_gbp": 24863.61,
+      "eligible_transaction_lines": 624,
+      "distinct_eligible_invoices": 28
+    },
+    {
+      "month": "2011-06",
+      "country": "European Community",
+      "gross_invoiced_sales_gbp": 432.05,
+      "eligible_transaction_lines": 20,
+      "distinct_eligible_invoices": 2
+    },
+    {
+      "month": "2011-06",
+      "country": "Finland",
+      "gross_invoiced_sales_gbp": 329.56,
+      "eligible_transaction_lines": 13,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2011-06",
+      "country": "France",
+      "gross_invoiced_sales_gbp": 16348.41,
+      "eligible_transaction_lines": 590,
+      "distinct_eligible_invoices": 31
+    },
+    {
+      "month": "2011-06",
+      "country": "Germany",
+      "gross_invoiced_sales_gbp": 13246.35,
+      "eligible_transaction_lines": 650,
+      "distinct_eligible_invoices": 24
+    },
+    {
+      "month": "2011-06",
+      "country": "Hong Kong",
+      "gross_invoiced_sales_gbp": 633.96,
+      "eligible_transaction_lines": 16,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2011-06",
+      "country": "Iceland",
+      "gross_invoiced_sales_gbp": 382.52,
+      "eligible_transaction_lines": 18,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2011-06",
+      "country": "Italy",
+      "gross_invoiced_sales_gbp": 202.07,
+      "eligible_transaction_lines": 10,
+      "distinct_eligible_invoices": 2
+    },
+    {
+      "month": "2011-06",
+      "country": "Japan",
+      "gross_invoiced_sales_gbp": 1607.04,
+      "eligible_transaction_lines": 6,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2011-06",
+      "country": "Malta",
+      "gross_invoiced_sales_gbp": 863.16,
+      "eligible_transaction_lines": 45,
+      "distinct_eligible_invoices": 2
+    },
+    {
+      "month": "2011-06",
+      "country": "Netherlands",
+      "gross_invoiced_sales_gbp": 26858.09,
+      "eligible_transaction_lines": 324,
+      "distinct_eligible_invoices": 11
+    },
+    {
+      "month": "2011-06",
+      "country": "Norway",
+      "gross_invoiced_sales_gbp": 5886.86,
+      "eligible_transaction_lines": 166,
+      "distinct_eligible_invoices": 4
+    },
+    {
+      "month": "2011-06",
+      "country": "Poland",
+      "gross_invoiced_sales_gbp": 343.65,
+      "eligible_transaction_lines": 16,
+      "distinct_eligible_invoices": 2
+    },
+    {
+      "month": "2011-06",
+      "country": "Portugal",
+      "gross_invoiced_sales_gbp": 884.46,
+      "eligible_transaction_lines": 48,
+      "distinct_eligible_invoices": 3
+    },
+    {
+      "month": "2011-06",
+      "country": "Spain",
+      "gross_invoiced_sales_gbp": 3333.21,
+      "eligible_transaction_lines": 181,
+      "distinct_eligible_invoices": 8
+    },
+    {
+      "month": "2011-06",
+      "country": "Sweden",
+      "gross_invoiced_sales_gbp": 832.0,
+      "eligible_transaction_lines": 35,
+      "distinct_eligible_invoices": 3
+    },
+    {
+      "month": "2011-06",
+      "country": "Switzerland",
+      "gross_invoiced_sales_gbp": 7904.15,
+      "eligible_transaction_lines": 125,
+      "distinct_eligible_invoices": 4
+    },
+    {
+      "month": "2011-06",
+      "country": "United Kingdom",
+      "gross_invoiced_sales_gbp": 618345.53,
+      "eligible_transaction_lines": 32130,
+      "distinct_eligible_invoices": 1383
+    },
+    {
+      "month": "2011-06",
+      "country": "Unspecified",
+      "gross_invoiced_sales_gbp": 185.78,
+      "eligible_transaction_lines": 9,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2011-07",
+      "country": "Australia",
+      "gross_invoiced_sales_gbp": 4964.38,
+      "eligible_transaction_lines": 159,
+      "distinct_eligible_invoices": 7
+    },
+    {
+      "month": "2011-07",
+      "country": "Austria",
+      "gross_invoiced_sales_gbp": 1191.95,
+      "eligible_transaction_lines": 55,
+      "distinct_eligible_invoices": 2
+    },
+    {
+      "month": "2011-07",
+      "country": "Belgium",
+      "gross_invoiced_sales_gbp": 2475.57,
+      "eligible_transaction_lines": 128,
+      "distinct_eligible_invoices": 5
+    },
+    {
+      "month": "2011-07",
+      "country": "Canada",
+      "gross_invoiced_sales_gbp": 1768.58,
+      "eligible_transaction_lines": 78,
+      "distinct_eligible_invoices": 2
+    },
+    {
+      "month": "2011-07",
+      "country": "Denmark",
+      "gross_invoiced_sales_gbp": 376.24,
+      "eligible_transaction_lines": 17,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2011-07",
+      "country": "EIRE",
+      "gross_invoiced_sales_gbp": 42738.85,
+      "eligible_transaction_lines": 707,
+      "distinct_eligible_invoices": 27
+    },
+    {
+      "month": "2011-07",
+      "country": "European Community",
+      "gross_invoiced_sales_gbp": 676.8,
+      "eligible_transaction_lines": 29,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2011-07",
+      "country": "Finland",
+      "gross_invoiced_sales_gbp": 2996.73,
+      "eligible_transaction_lines": 83,
+      "distinct_eligible_invoices": 3
+    },
+    {
+      "month": "2011-07",
+      "country": "France",
+      "gross_invoiced_sales_gbp": 10000.19,
+      "eligible_transaction_lines": 448,
+      "distinct_eligible_invoices": 22
+    },
+    {
+      "month": "2011-07",
+      "country": "Germany",
+      "gross_invoiced_sales_gbp": 16440.98,
+      "eligible_transaction_lines": 755,
+      "distinct_eligible_invoices": 33
+    },
+    {
+      "month": "2011-07",
+      "country": "Greece",
+      "gross_invoiced_sales_gbp": 421.24,
+      "eligible_transaction_lines": 24,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2011-07",
+      "country": "Israel",
+      "gross_invoiced_sales_gbp": 1430.75,
+      "eligible_transaction_lines": 27,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2011-07",
+      "country": "Italy",
+      "gross_invoiced_sales_gbp": 147.1,
+      "eligible_transaction_lines": 6,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2011-07",
+      "country": "Japan",
+      "gross_invoiced_sales_gbp": 3854.4,
+      "eligible_transaction_lines": 39,
+      "distinct_eligible_invoices": 2
+    },
+    {
+      "month": "2011-07",
+      "country": "Netherlands",
+      "gross_invoiced_sales_gbp": 26.02,
+      "eligible_transaction_lines": 10,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2011-07",
+      "country": "Norway",
+      "gross_invoiced_sales_gbp": 890.07,
+      "eligible_transaction_lines": 49,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2011-07",
+      "country": "Poland",
+      "gross_invoiced_sales_gbp": 687.3,
+      "eligible_transaction_lines": 32,
+      "distinct_eligible_invoices": 2
+    },
+    {
+      "month": "2011-07",
+      "country": "Portugal",
+      "gross_invoiced_sales_gbp": 2287.85,
+      "eligible_transaction_lines": 89,
+      "distinct_eligible_invoices": 3
+    },
+    {
+      "month": "2011-07",
+      "country": "Singapore",
+      "gross_invoiced_sales_gbp": 3949.32,
+      "eligible_transaction_lines": 75,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2011-07",
+      "country": "Spain",
+      "gross_invoiced_sales_gbp": 7620.77,
+      "eligible_transaction_lines": 177,
+      "distinct_eligible_invoices": 9
+    },
+    {
+      "month": "2011-07",
+      "country": "Sweden",
+      "gross_invoiced_sales_gbp": 6802.09,
+      "eligible_transaction_lines": 54,
+      "distinct_eligible_invoices": 3
+    },
+    {
+      "month": "2011-07",
+      "country": "Switzerland",
+      "gross_invoiced_sales_gbp": 3990.76,
+      "eligible_transaction_lines": 175,
+      "distinct_eligible_invoices": 6
+    },
+    {
+      "month": "2011-07",
+      "country": "United Kingdom",
+      "gross_invoiced_sales_gbp": 600919.07,
+      "eligible_transaction_lines": 34961,
+      "distinct_eligible_invoices": 1337
+    },
+    {
+      "month": "2011-07",
+      "country": "Unspecified",
+      "gross_invoiced_sales_gbp": 1419.11,
+      "eligible_transaction_lines": 218,
+      "distinct_eligible_invoices": 4
+    },
+    {
+      "month": "2011-08",
+      "country": "Australia",
+      "gross_invoiced_sales_gbp": 22489.2,
+      "eligible_transaction_lines": 107,
+      "distinct_eligible_invoices": 2
+    },
+    {
+      "month": "2011-08",
+      "country": "Austria",
+      "gross_invoiced_sales_gbp": 1516.08,
+      "eligible_transaction_lines": 88,
+      "distinct_eligible_invoices": 2
+    },
+    {
+      "month": "2011-08",
+      "country": "Belgium",
+      "gross_invoiced_sales_gbp": 3554.02,
+      "eligible_transaction_lines": 194,
+      "distinct_eligible_invoices": 9
+    },
+    {
+      "month": "2011-08",
+      "country": "Canada",
+      "gross_invoiced_sales_gbp": 51.56,
+      "eligible_transaction_lines": 5,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2011-08",
+      "country": "Channel Islands",
+      "gross_invoiced_sales_gbp": 4886.88,
+      "eligible_transaction_lines": 139,
+      "distinct_eligible_invoices": 5
+    },
+    {
+      "month": "2011-08",
+      "country": "Denmark",
+      "gross_invoiced_sales_gbp": 213.15,
+      "eligible_transaction_lines": 16,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2011-08",
+      "country": "EIRE",
+      "gross_invoiced_sales_gbp": 18344.2,
+      "eligible_transaction_lines": 649,
+      "distinct_eligible_invoices": 19
+    },
+    {
+      "month": "2011-08",
+      "country": "Finland",
+      "gross_invoiced_sales_gbp": 1376.5,
+      "eligible_transaction_lines": 61,
+      "distinct_eligible_invoices": 3
+    },
+    {
+      "month": "2011-08",
+      "country": "France",
+      "gross_invoiced_sales_gbp": 13810.96,
+      "eligible_transaction_lines": 569,
+      "distinct_eligible_invoices": 28
+    },
+    {
+      "month": "2011-08",
+      "country": "Germany",
+      "gross_invoiced_sales_gbp": 19220.77,
+      "eligible_transaction_lines": 795,
+      "distinct_eligible_invoices": 39
+    },
+    {
+      "month": "2011-08",
+      "country": "Hong Kong",
+      "gross_invoiced_sales_gbp": 2813.95,
+      "eligible_transaction_lines": 49,
+      "distinct_eligible_invoices": 2
+    },
+    {
+      "month": "2011-08",
+      "country": "Iceland",
+      "gross_invoiced_sales_gbp": 584.91,
+      "eligible_transaction_lines": 22,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2011-08",
+      "country": "Israel",
+      "gross_invoiced_sales_gbp": 4873.81,
+      "eligible_transaction_lines": 171,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2011-08",
+      "country": "Italy",
+      "gross_invoiced_sales_gbp": 1990.95,
+      "eligible_transaction_lines": 95,
+      "distinct_eligible_invoices": 4
+    },
+    {
+      "month": "2011-08",
+      "country": "Malta",
+      "gross_invoiced_sales_gbp": 1119.0,
+      "eligible_transaction_lines": 55,
+      "distinct_eligible_invoices": 2
+    },
+    {
+      "month": "2011-08",
+      "country": "Netherlands",
+      "gross_invoiced_sales_gbp": 40327.81,
+      "eligible_transaction_lines": 276,
+      "distinct_eligible_invoices": 7
+    },
+    {
+      "month": "2011-08",
+      "country": "Norway",
+      "gross_invoiced_sales_gbp": 2025.81,
+      "eligible_transaction_lines": 77,
+      "distinct_eligible_invoices": 2
+    },
+    {
+      "month": "2011-08",
+      "country": "Poland",
+      "gross_invoiced_sales_gbp": 401.8,
+      "eligible_transaction_lines": 17,
+      "distinct_eligible_invoices": 2
+    },
+    {
+      "month": "2011-08",
+      "country": "Portugal",
+      "gross_invoiced_sales_gbp": 1221.4,
+      "eligible_transaction_lines": 41,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2011-08",
+      "country": "Spain",
+      "gross_invoiced_sales_gbp": 3342.41,
+      "eligible_transaction_lines": 250,
+      "distinct_eligible_invoices": 10
+    },
+    {
+      "month": "2011-08",
+      "country": "Sweden",
+      "gross_invoiced_sales_gbp": 1390.36,
+      "eligible_transaction_lines": 39,
+      "distinct_eligible_invoices": 5
+    },
+    {
+      "month": "2011-08",
+      "country": "Switzerland",
+      "gross_invoiced_sales_gbp": 4969.89,
+      "eligible_transaction_lines": 267,
+      "distinct_eligible_invoices": 3
+    },
+    {
+      "month": "2011-08",
+      "country": "United Kingdom",
+      "gross_invoiced_sales_gbp": 606784.93,
+      "eligible_transaction_lines": 30259,
+      "distinct_eligible_invoices": 1210
+    },
+    {
+      "month": "2011-08",
+      "country": "Unspecified",
+      "gross_invoiced_sales_gbp": 531.03,
+      "eligible_transaction_lines": 23,
+      "distinct_eligible_invoices": 2
+    },
+    {
+      "month": "2011-09",
+      "country": "Australia",
+      "gross_invoiced_sales_gbp": 5106.73,
+      "eligible_transaction_lines": 102,
+      "distinct_eligible_invoices": 8
+    },
+    {
+      "month": "2011-09",
+      "country": "Belgium",
+      "gross_invoiced_sales_gbp": 4208.02,
+      "eligible_transaction_lines": 184,
+      "distinct_eligible_invoices": 7
+    },
+    {
+      "month": "2011-09",
+      "country": "Channel Islands",
+      "gross_invoiced_sales_gbp": 1323.75,
+      "eligible_transaction_lines": 65,
+      "distinct_eligible_invoices": 2
+    },
+    {
+      "month": "2011-09",
+      "country": "Cyprus",
+      "gross_invoiced_sales_gbp": 196.35,
+      "eligible_transaction_lines": 1,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2011-09",
+      "country": "Denmark",
+      "gross_invoiced_sales_gbp": 4570.16,
+      "eligible_transaction_lines": 46,
+      "distinct_eligible_invoices": 3
+    },
+    {
+      "month": "2011-09",
+      "country": "EIRE",
+      "gross_invoiced_sales_gbp": 42923.7,
+      "eligible_transaction_lines": 1179,
+      "distinct_eligible_invoices": 38
+    },
+    {
+      "month": "2011-09",
+      "country": "Finland",
+      "gross_invoiced_sales_gbp": 1105.45,
+      "eligible_transaction_lines": 33,
+      "distinct_eligible_invoices": 4
+    },
+    {
+      "month": "2011-09",
+      "country": "France",
+      "gross_invoiced_sales_gbp": 23428.04,
+      "eligible_transaction_lines": 1038,
+      "distinct_eligible_invoices": 45
+    },
+    {
+      "month": "2011-09",
+      "country": "Germany",
+      "gross_invoiced_sales_gbp": 18079.47,
+      "eligible_transaction_lines": 771,
+      "distinct_eligible_invoices": 41
+    },
+    {
+      "month": "2011-09",
+      "country": "Hong Kong",
+      "gross_invoiced_sales_gbp": 2653.95,
+      "eligible_transaction_lines": 1,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2011-09",
+      "country": "Israel",
+      "gross_invoiced_sales_gbp": 423.73,
+      "eligible_transaction_lines": 27,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2011-09",
+      "country": "Italy",
+      "gross_invoiced_sales_gbp": 279.8,
+      "eligible_transaction_lines": 15,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2011-09",
+      "country": "Japan",
+      "gross_invoiced_sales_gbp": 112.08,
+      "eligible_transaction_lines": 4,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2011-09",
+      "country": "Netherlands",
+      "gross_invoiced_sales_gbp": 26937.26,
+      "eligible_transaction_lines": 242,
+      "distinct_eligible_invoices": 7
+    },
+    {
+      "month": "2011-09",
+      "country": "Norway",
+      "gross_invoiced_sales_gbp": 8678.94,
+      "eligible_transaction_lines": 202,
+      "distinct_eligible_invoices": 6
+    },
+    {
+      "month": "2011-09",
+      "country": "Poland",
+      "gross_invoiced_sales_gbp": 529.25,
+      "eligible_transaction_lines": 30,
+      "distinct_eligible_invoices": 2
+    },
+    {
+      "month": "2011-09",
+      "country": "Portugal",
+      "gross_invoiced_sales_gbp": 1433.22,
+      "eligible_transaction_lines": 74,
+      "distinct_eligible_invoices": 3
+    },
+    {
+      "month": "2011-09",
+      "country": "Spain",
+      "gross_invoiced_sales_gbp": 5189.24,
+      "eligible_transaction_lines": 242,
+      "distinct_eligible_invoices": 8
+    },
+    {
+      "month": "2011-09",
+      "country": "Sweden",
+      "gross_invoiced_sales_gbp": 4575.21,
+      "eligible_transaction_lines": 38,
+      "distinct_eligible_invoices": 3
+    },
+    {
+      "month": "2011-09",
+      "country": "Switzerland",
+      "gross_invoiced_sales_gbp": 8284.86,
+      "eligible_transaction_lines": 192,
+      "distinct_eligible_invoices": 7
+    },
+    {
+      "month": "2011-09",
+      "country": "United Arab Emirates",
+      "gross_invoiced_sales_gbp": 1013.04,
+      "eligible_transaction_lines": 38,
+      "distinct_eligible_invoices": 2
+    },
+    {
+      "month": "2011-09",
+      "country": "United Kingdom",
+      "gross_invoiced_sales_gbp": 895098.64,
+      "eligible_transaction_lines": 44311,
+      "distinct_eligible_invoices": 1645
+    },
+    {
+      "month": "2011-09",
+      "country": "Unspecified",
+      "gross_invoiced_sales_gbp": 284.3,
+      "eligible_transaction_lines": 65,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2011-10",
+      "country": "Australia",
+      "gross_invoiced_sales_gbp": 17150.53,
+      "eligible_transaction_lines": 114,
+      "distinct_eligible_invoices": 4
+    },
+    {
+      "month": "2011-10",
+      "country": "Austria",
+      "gross_invoiced_sales_gbp": 1043.78,
+      "eligible_transaction_lines": 54,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2011-10",
+      "country": "Belgium",
+      "gross_invoiced_sales_gbp": 5685.38,
+      "eligible_transaction_lines": 264,
+      "distinct_eligible_invoices": 11
+    },
+    {
+      "month": "2011-10",
+      "country": "Channel Islands",
+      "gross_invoiced_sales_gbp": 2623.32,
+      "eligible_transaction_lines": 102,
+      "distinct_eligible_invoices": 5
+    },
+    {
+      "month": "2011-10",
+      "country": "Cyprus",
+      "gross_invoiced_sales_gbp": 4350.32,
+      "eligible_transaction_lines": 160,
+      "distinct_eligible_invoices": 4
+    },
+    {
+      "month": "2011-10",
+      "country": "Czech Republic",
+      "gross_invoiced_sales_gbp": 277.48,
+      "eligible_transaction_lines": 10,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2011-10",
+      "country": "Denmark",
+      "gross_invoiced_sales_gbp": 1490.76,
+      "eligible_transaction_lines": 23,
+      "distinct_eligible_invoices": 3
+    },
+    {
+      "month": "2011-10",
+      "country": "EIRE",
+      "gross_invoiced_sales_gbp": 24302.92,
+      "eligible_transaction_lines": 870,
+      "distinct_eligible_invoices": 31
+    },
+    {
+      "month": "2011-10",
+      "country": "Finland",
+      "gross_invoiced_sales_gbp": 2822.12,
+      "eligible_transaction_lines": 114,
+      "distinct_eligible_invoices": 6
+    },
+    {
+      "month": "2011-10",
+      "country": "France",
+      "gross_invoiced_sales_gbp": 33471.05,
+      "eligible_transaction_lines": 881,
+      "distinct_eligible_invoices": 35
+    },
+    {
+      "month": "2011-10",
+      "country": "Germany",
+      "gross_invoiced_sales_gbp": 31628.42,
+      "eligible_transaction_lines": 1285,
+      "distinct_eligible_invoices": 58
+    },
+    {
+      "month": "2011-10",
+      "country": "Hong Kong",
+      "gross_invoiced_sales_gbp": 734.52,
+      "eligible_transaction_lines": 34,
+      "distinct_eligible_invoices": 2
+    },
+    {
+      "month": "2011-10",
+      "country": "Iceland",
+      "gross_invoiced_sales_gbp": 1294.32,
+      "eligible_transaction_lines": 47,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2011-10",
+      "country": "Israel",
+      "gross_invoiced_sales_gbp": 132.18,
+      "eligible_transaction_lines": 31,
+      "distinct_eligible_invoices": 2
+    },
+    {
+      "month": "2011-10",
+      "country": "Italy",
+      "gross_invoiced_sales_gbp": 3489.69,
+      "eligible_transaction_lines": 159,
+      "distinct_eligible_invoices": 7
+    },
+    {
+      "month": "2011-10",
+      "country": "Japan",
+      "gross_invoiced_sales_gbp": 1948.04,
+      "eligible_transaction_lines": 16,
+      "distinct_eligible_invoices": 2
+    },
+    {
+      "month": "2011-10",
+      "country": "Netherlands",
+      "gross_invoiced_sales_gbp": 40708.65,
+      "eligible_transaction_lines": 278,
+      "distinct_eligible_invoices": 15
+    },
+    {
+      "month": "2011-10",
+      "country": "Norway",
+      "gross_invoiced_sales_gbp": 3687.23,
+      "eligible_transaction_lines": 120,
+      "distinct_eligible_invoices": 7
+    },
+    {
+      "month": "2011-10",
+      "country": "Portugal",
+      "gross_invoiced_sales_gbp": 6184.22,
+      "eligible_transaction_lines": 434,
+      "distinct_eligible_invoices": 10
+    },
+    {
+      "month": "2011-10",
+      "country": "RSA",
+      "gross_invoiced_sales_gbp": 1002.31,
+      "eligible_transaction_lines": 57,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2011-10",
+      "country": "Singapore",
+      "gross_invoiced_sales_gbp": 7067.32,
+      "eligible_transaction_lines": 34,
+      "distinct_eligible_invoices": 2
+    },
+    {
+      "month": "2011-10",
+      "country": "Spain",
+      "gross_invoiced_sales_gbp": 8636.94,
+      "eligible_transaction_lines": 306,
+      "distinct_eligible_invoices": 8
+    },
+    {
+      "month": "2011-10",
+      "country": "Sweden",
+      "gross_invoiced_sales_gbp": 5766.16,
+      "eligible_transaction_lines": 47,
+      "distinct_eligible_invoices": 3
+    },
+    {
+      "month": "2011-10",
+      "country": "Switzerland",
+      "gross_invoiced_sales_gbp": 8050.73,
+      "eligible_transaction_lines": 376,
+      "distinct_eligible_invoices": 8
+    },
+    {
+      "month": "2011-10",
+      "country": "USA",
+      "gross_invoiced_sales_gbp": 2311.2,
+      "eligible_transaction_lines": 125,
+      "distinct_eligible_invoices": 2
+    },
+    {
+      "month": "2011-10",
+      "country": "United Kingdom",
+      "gross_invoiced_sales_gbp": 935404.14,
+      "eligible_transaction_lines": 52596,
+      "distinct_eligible_invoices": 1811
+    },
+    {
+      "month": "2011-11",
+      "country": "Australia",
+      "gross_invoiced_sales_gbp": 7242.72,
+      "eligible_transaction_lines": 41,
+      "distinct_eligible_invoices": 6
+    },
+    {
+      "month": "2011-11",
+      "country": "Austria",
+      "gross_invoiced_sales_gbp": 1329.78,
+      "eligible_transaction_lines": 70,
+      "distinct_eligible_invoices": 2
+    },
+    {
+      "month": "2011-11",
+      "country": "Belgium",
+      "gross_invoiced_sales_gbp": 6315.76,
+      "eligible_transaction_lines": 243,
+      "distinct_eligible_invoices": 11
+    },
+    {
+      "month": "2011-11",
+      "country": "Channel Islands",
+      "gross_invoiced_sales_gbp": 1514.77,
+      "eligible_transaction_lines": 73,
+      "distinct_eligible_invoices": 3
+    },
+    {
+      "month": "2011-11",
+      "country": "Cyprus",
+      "gross_invoiced_sales_gbp": 439.66,
+      "eligible_transaction_lines": 93,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2011-11",
+      "country": "Denmark",
+      "gross_invoiced_sales_gbp": 2699.57,
+      "eligible_transaction_lines": 83,
+      "distinct_eligible_invoices": 2
+    },
+    {
+      "month": "2011-11",
+      "country": "EIRE",
+      "gross_invoiced_sales_gbp": 30713.43,
+      "eligible_transaction_lines": 1069,
+      "distinct_eligible_invoices": 42
+    },
+    {
+      "month": "2011-11",
+      "country": "Finland",
+      "gross_invoiced_sales_gbp": 3070.24,
+      "eligible_transaction_lines": 74,
+      "distinct_eligible_invoices": 8
+    },
+    {
+      "month": "2011-11",
+      "country": "France",
+      "gross_invoiced_sales_gbp": 31696.37,
+      "eligible_transaction_lines": 1538,
+      "distinct_eligible_invoices": 64
+    },
+    {
+      "month": "2011-11",
+      "country": "Germany",
+      "gross_invoiced_sales_gbp": 27967.68,
+      "eligible_transaction_lines": 1088,
+      "distinct_eligible_invoices": 68
+    },
+    {
+      "month": "2011-11",
+      "country": "Hong Kong",
+      "gross_invoiced_sales_gbp": 326.1,
+      "eligible_transaction_lines": 1,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2011-11",
+      "country": "Italy",
+      "gross_invoiced_sales_gbp": 4571.08,
+      "eligible_transaction_lines": 176,
+      "distinct_eligible_invoices": 9
+    },
+    {
+      "month": "2011-11",
+      "country": "Japan",
+      "gross_invoiced_sales_gbp": 8460.08,
+      "eligible_transaction_lines": 32,
+      "distinct_eligible_invoices": 2
+    },
+    {
+      "month": "2011-11",
+      "country": "Malta",
+      "gross_invoiced_sales_gbp": 743.43,
+      "eligible_transaction_lines": 12,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2011-11",
+      "country": "Netherlands",
+      "gross_invoiced_sales_gbp": 25874.01,
+      "eligible_transaction_lines": 225,
+      "distinct_eligible_invoices": 15
+    },
+    {
+      "month": "2011-11",
+      "country": "Norway",
+      "gross_invoiced_sales_gbp": 6527.5,
+      "eligible_transaction_lines": 182,
+      "distinct_eligible_invoices": 5
+    },
+    {
+      "month": "2011-11",
+      "country": "Poland",
+      "gross_invoiced_sales_gbp": 1361.23,
+      "eligible_transaction_lines": 71,
+      "distinct_eligible_invoices": 2
+    },
+    {
+      "month": "2011-11",
+      "country": "Portugal",
+      "gross_invoiced_sales_gbp": 2603.3,
+      "eligible_transaction_lines": 143,
+      "distinct_eligible_invoices": 10
+    },
+    {
+      "month": "2011-11",
+      "country": "Spain",
+      "gross_invoiced_sales_gbp": 8669.06,
+      "eligible_transaction_lines": 303,
+      "distinct_eligible_invoices": 14
+    },
+    {
+      "month": "2011-11",
+      "country": "Sweden",
+      "gross_invoiced_sales_gbp": 2722.23,
+      "eligible_transaction_lines": 76,
+      "distinct_eligible_invoices": 5
+    },
+    {
+      "month": "2011-11",
+      "country": "Switzerland",
+      "gross_invoiced_sales_gbp": 8118.96,
+      "eligible_transaction_lines": 225,
+      "distinct_eligible_invoices": 6
+    },
+    {
+      "month": "2011-11",
+      "country": "United Kingdom",
+      "gross_invoiced_sales_gbp": 1319934.07,
+      "eligible_transaction_lines": 76133,
+      "distinct_eligible_invoices": 2490
+    },
+    {
+      "month": "2011-11",
+      "country": "Unspecified",
+      "gross_invoiced_sales_gbp": 965.75,
+      "eligible_transaction_lines": 53,
+      "distinct_eligible_invoices": 2
+    },
+    {
+      "month": "2011-12",
+      "country": "Austria",
+      "gross_invoiced_sales_gbp": 683.2,
+      "eligible_transaction_lines": 7,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2011-12",
+      "country": "Belgium",
+      "gross_invoiced_sales_gbp": 1417.73,
+      "eligible_transaction_lines": 94,
+      "distinct_eligible_invoices": 4
+    },
+    {
+      "month": "2011-12",
+      "country": "Channel Islands",
+      "gross_invoiced_sales_gbp": 198.4,
+      "eligible_transaction_lines": 5,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2011-12",
+      "country": "Denmark",
+      "gross_invoiced_sales_gbp": 168.9,
+      "eligible_transaction_lines": 11,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2011-12",
+      "country": "EIRE",
+      "gross_invoiced_sales_gbp": 7340.89,
+      "eligible_transaction_lines": 333,
+      "distinct_eligible_invoices": 10
+    },
+    {
+      "month": "2011-12",
+      "country": "Finland",
+      "gross_invoiced_sales_gbp": 1232.76,
+      "eligible_transaction_lines": 13,
+      "distinct_eligible_invoices": 3
+    },
+    {
+      "month": "2011-12",
+      "country": "France",
+      "gross_invoiced_sales_gbp": 7276.92,
+      "eligible_transaction_lines": 324,
+      "distinct_eligible_invoices": 18
+    },
+    {
+      "month": "2011-12",
+      "country": "Germany",
+      "gross_invoiced_sales_gbp": 7984.17,
+      "eligible_transaction_lines": 317,
+      "distinct_eligible_invoices": 17
+    },
+    {
+      "month": "2011-12",
+      "country": "Greece",
+      "gross_invoiced_sales_gbp": 680.99,
+      "eligible_transaction_lines": 36,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2011-12",
+      "country": "Iceland",
+      "gross_invoiced_sales_gbp": 224.82,
+      "eligible_transaction_lines": 11,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2011-12",
+      "country": "Italy",
+      "gross_invoiced_sales_gbp": 200.45,
+      "eligible_transaction_lines": 8,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2011-12",
+      "country": "Netherlands",
+      "gross_invoiced_sales_gbp": 11728.02,
+      "eligible_transaction_lines": 86,
+      "distinct_eligible_invoices": 3
+    },
+    {
+      "month": "2011-12",
+      "country": "Norway",
+      "gross_invoiced_sales_gbp": 2785.7,
+      "eligible_transaction_lines": 73,
+      "distinct_eligible_invoices": 3
+    },
+    {
+      "month": "2011-12",
+      "country": "Portugal",
+      "gross_invoiced_sales_gbp": 2808.19,
+      "eligible_transaction_lines": 101,
+      "distinct_eligible_invoices": 4
+    },
+    {
+      "month": "2011-12",
+      "country": "Spain",
+      "gross_invoiced_sales_gbp": 316.21,
+      "eligible_transaction_lines": 65,
+      "distinct_eligible_invoices": 2
+    },
+    {
+      "month": "2011-12",
+      "country": "Sweden",
+      "gross_invoiced_sales_gbp": 238.0,
+      "eligible_transaction_lines": 1,
+      "distinct_eligible_invoices": 1
+    },
+    {
+      "month": "2011-12",
+      "country": "USA",
+      "gross_invoiced_sales_gbp": 885.24,
+      "eligible_transaction_lines": 32,
+      "distinct_eligible_invoices": 2
+    },
+    {
+      "month": "2011-12",
+      "country": "United Kingdom",
+      "gross_invoiced_sales_gbp": 591619.74,
+      "eligible_transaction_lines": 23316,
+      "distinct_eligible_invoices": 746
+    }
+  ],
+  "notes": [
+    "Aggregate-only data; raw transactions are not included.",
+    "Gross invoiced sales is not net revenue or profit."
+  ]
+}
