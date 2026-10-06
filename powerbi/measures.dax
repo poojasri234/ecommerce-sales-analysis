@@ -1,0 +1,25 @@
+// Create these after loading the cleaned table as 'Eligible Sales'.
+
+Gross Invoiced Sales =
+SUMX(
+    'Eligible Sales',
+    'Eligible Sales'[Quantity] * 'Eligible Sales'[UnitPrice]
+)
+
+Eligible Transaction Lines =
+COUNTROWS('Eligible Sales')
+
+Distinct Eligible Invoices =
+DISTINCTCOUNT('Eligible Sales'[InvoiceNo])
+
+Countries Represented =
+DISTINCTCOUNT('Eligible Sales'[Country])
+
+United Kingdom Gross Invoiced Sales =
+CALCULATE(
+    [Gross Invoiced Sales],
+    'Eligible Sales'[Country] = "United Kingdom"
+)
+
+United Kingdom Sales Share =
+DIVIDE([United Kingdom Gross Invoiced Sales], [Gross Invoiced Sales])
